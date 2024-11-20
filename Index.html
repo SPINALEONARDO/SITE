@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attività su Discord</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Benvenuti alle Attività su Discord!</h1>
+        <p>Unisciti alla nostra comunità su Discord e partecipa alle nostre divertenti attività!</p>
+    </header>
+
+    <section id="attivita">
+        <h2>Le nostre attività</h2>
+        <p>Scopri tutte le attività che puoi fare durante le chiamate su Discord con noi!</p>
+        <ul>
+            <li>Trivia quiz</li>
+            <li>Gioco del ping pong virtuale</li>
+            <li>Indovina la canzone</li>
+            <li>Collaborazioni di gioco online</li>
+        </ul>
+    </section>
+
+    <section id="gioco">
+        <h2>Mini Gioco: Indovina il numero</h2>
+        <p>Prova a indovinare il numero che sto pensando. Hai 5 tentativi!</p>
+        <div id="gioco-area">
+            <input type="number" id="input-number" placeholder="Inserisci un numero" min="1" max="100">
+            <button onclick="gioca()">Indovina!</button>
+            <p id="risultato"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Attività Discord. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
